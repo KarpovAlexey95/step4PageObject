@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options as OptionsFox
-# pytest -v --tb=line --language=en test_main_page.py
+
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="chrome",
